@@ -1,4 +1,4 @@
--- publishers
+
 INSERT INTO publishers(publisher_id, name) VALUES (1, 'O Reilly Media');
 INSERT INTO publishers(publisher_id, name) VALUES (2, 'A Book Apart');
 INSERT INTO publishers(publisher_id, name) VALUES (3, 'A K PETERS');
@@ -7,7 +7,7 @@ INSERT INTO publishers(publisher_id, name) VALUES (5, 'Addison Wesley');
 INSERT INTO publishers(publisher_id, name) VALUES (6, 'Albert&Sweigart');
 INSERT INTO publishers(publisher_id, name) VALUES (7, 'Alfred A. Knopf');
 
--- authors 
+
 INSERT INTO authors (author_id, first_name, middle_name, last_name) VALUES (1, 'Merritt', null, 'Eric');
 INSERT INTO authors (author_id, first_name, middle_name, last_name) VALUES (2, 'Linda', null, 'Mui');
 INSERT INTO authors (author_id, first_name, middle_name, last_name) VALUES (3, 'Alecos', null, 'Papadatos');
@@ -17,7 +17,7 @@ INSERT INTO authors (author_id, first_name, middle_name, last_name) VALUES (6, '
 INSERT INTO authors (author_id, first_name, middle_name, last_name) VALUES (7, 'Yuval', 'Noah', 'Harari');
 INSERT INTO authors (author_id, first_name, middle_name, last_name) VALUES (8, 'Paul', null, 'Albitz');
 
--- books
+
 INSERT INTO books (book_id, title, total_pages, rating, isbn, published_date, publisher_id) VALUES (1, 'Lean Software Development: An Agile Toolkit', 240, 4.17, '9780320000000', '2003-05-18', 5);
 INSERT INTO books (book_id, title, total_pages, rating, isbn, published_date, publisher_id) VALUES (2, 'Facing the Intelligence Explosion', 91, 3.87, null, '2013-02-01', 7);
 INSERT INTO books (book_id, title, total_pages, rating, isbn, published_date, publisher_id) VALUES (3, 'Scala in Action', 419, 3.74, '9781940000000', '2013-04-10', 1);
